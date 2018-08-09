@@ -1,0 +1,9 @@
+#!/bin/bash
+
+touch state.yaml
+
+docker run --rm -it \
+    --name eve-posbot \
+    --volume "$(pwd)"/example-config.yaml:/app/foo.yaml:ro \
+    --volume "$(pwd)"/state.yaml:/app/state.yaml \
+    boravyvorant/eve-posbot foo.yaml

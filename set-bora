@@ -1,0 +1,6 @@
+#!/bin/bash
+
+git config --local user.name "Bora Vyvorant"
+git config --local user.email bora.vyvorant@gmail.com
+git config --local github.user BoraVyvorant
+git config --local core.sshCommand "`which ssh` -i $HOME/.ssh/bora"

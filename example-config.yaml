@@ -1,0 +1,35 @@
+#
+# EXAMPLE configuration for POSBot, with secrets redacted.
+#
+
+#
+# Configuration for Slack notifications.
+#
+slack:
+  webhook_url: 'REDACTED'
+  defaults:
+    channel: 'REDACTED'
+    username: 'POSBot'
+    icon_emoji: ':fuelpump:'
+
+refresh_token: 'REDACTED'
+
+client_id: 'REDACTED'
+client_secret: 'REDACTED'
+
+#
+# Restrict listings to specific named systems. If this configuration item is
+# commented out or removed, structures in all systems will be included.
+#
+systems: [Boystin]
+
+#
+# Thresholds to use for the warning and danger states.
+#
+warning_days: 7
+danger_days: 3
+
+#
+# Location of our state file.
+#
+statefile: state.yaml
