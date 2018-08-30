@@ -33,3 +33,8 @@ danger_days: 3
 # Location of our state file.
 #
 statefile: state.yaml
+
+#
+# Set the logging level. Defaults to 'info'.
+#
+#log_level: debug

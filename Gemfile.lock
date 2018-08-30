@@ -11,7 +11,7 @@ GEM
     esi-client-bvv (1.0.4)
       json (~> 2.1, >= 2.1.0)
       typhoeus (~> 1.0, >= 1.0.1)
-    esi-utils-bvv (0.1.1)
+    esi-utils-bvv (0.1.2)
       esi-client-bvv (~> 1.0.4)
       ffi (= 1.9.21)
     ethon (0.11.0)
@@ -63,7 +63,7 @@ PLATFORMS
 DEPENDENCIES
   activesupport
   esi-client-bvv
-  esi-utils-bvv (~> 0.1.1)
+  esi-utils-bvv (~> 0.1.2)
   ffi (= 1.9.21)
   oauth2 (~> 1.4.0)
   rubocop
