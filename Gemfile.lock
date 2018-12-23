@@ -11,14 +11,14 @@ GEM
     esi-client-bvv (1.0.4)
       json (~> 2.1, >= 2.1.0)
       typhoeus (~> 1.0, >= 1.0.1)
-    esi-utils-bvv (0.1.2)
+    esi-utils-bvv (0.1.3)
       esi-client-bvv (~> 1.0.4)
-      ffi (= 1.9.21)
+      ffi (>= 1.9.24)
     ethon (0.11.0)
       ffi (>= 1.3.0)
     faraday (0.15.4)
       multipart-post (>= 1.2, < 3)
-    ffi (1.9.21)
+    ffi (1.9.25)
     i18n (1.3.0)
       concurrent-ruby (~> 1.0)
     jaro_winkler (1.5.1)
@@ -63,8 +63,7 @@ PLATFORMS
 DEPENDENCIES
   activesupport
   esi-client-bvv
-  esi-utils-bvv (~> 0.1.2)
-  ffi (= 1.9.21)
+  esi-utils-bvv (~> 0.1.3)
   oauth2 (~> 1.4.0)
   rubocop
   slack-notifier
